@@ -1,15 +1,9 @@
 # Udemy Course
 
-## Spring Cloud Fundamentals
+## Junit and Mockito Crash Course
 
 **_Projects_**
 
 1. [Hello Junit](https://github.com/brunomilitzer/junit-mockito/tree/master/HelloJunit)
-1. [Hello Junit 5](https://github.com/brunomilitzer/junit-mockito/tree/master/HelloJunit5)
-
-
-Profiles Demo
-
-**Specifications**
-
-* Java 11
+2. [Hello Junit 5](https://github.com/brunomilitzer/junit-mockito/tree/master/HelloJunit5)
+3. [Order Processing Service](https://github.com/brunomilitzer/junit-mockito/tree/master/OrderProcessingService)
