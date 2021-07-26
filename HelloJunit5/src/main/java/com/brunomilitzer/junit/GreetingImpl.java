@@ -1,14 +1,16 @@
 package com.brunomilitzer.junit;
 
+import com.brunomilitzer.junit.services.GreetingService;
+
 public class GreetingImpl implements Greeting {
 
+    private GreetingService service;
+
     @Override
-    public String greet( String name ) {
+    public String greet( final String name ) {
 
-        if (name == null || name.length() == 0) {
-            throw new IllegalArgumentException();
-        }
+        return this.service.greet( name );
 
-        return "Hello " + name;
     }
+
 }

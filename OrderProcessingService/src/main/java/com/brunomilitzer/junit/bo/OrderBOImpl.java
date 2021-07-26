@@ -63,11 +63,6 @@ public class OrderBOImpl implements OrderBO {
         return true;
     }
 
-    public OrderDAO getDao() {
-
-        return this.dao;
-    }
-
     public void setDao( final OrderDAO dao ) {
 
         this.dao = dao;
