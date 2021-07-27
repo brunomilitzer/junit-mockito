@@ -12,8 +12,7 @@ import java.sql.SQLException;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 public class OrderBOImplTest {
 
@@ -38,11 +37,11 @@ public class OrderBOImplTest {
 
         final Order order = new Order();
 
-        when( this.dao.create( order ) ).thenReturn( 1 );
+        when( this.dao.create( any( Order.class ) ) ).thenReturn( 1 );
         final Boolean result = this.bo.placeOrder( order );
 
         assertTrue( result );
-        verify( this.dao ).create( order );
+        verify( this.dao, atLeast( 1 ) ).create( order );
     }
 
     @Test
@@ -95,7 +94,7 @@ public class OrderBOImplTest {
     @Test( expected = BOException.class )
     public void cancelOrder_Should_Throw_BOException_On_Read() throws SQLException, BOException {
 
-        when( this.dao.read( ORDER_ID ) ).thenThrow( SQLException.class );
+        when( this.dao.read( anyLong() ) ).thenThrow( SQLException.class );
         this.bo.cancelOrder( ORDER_ID );
     }
 
