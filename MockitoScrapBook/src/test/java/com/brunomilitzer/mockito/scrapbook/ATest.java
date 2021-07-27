@@ -20,7 +20,7 @@ class ATest {
     @BeforeEach
     public void setup() {
 
-        MockitoAnnotations.initMocks( this );
+        MockitoAnnotations.openMocks( this );
         this.a = new A( this.b );
     }
 

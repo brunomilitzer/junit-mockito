@@ -26,7 +26,7 @@ public class OrderBOImplTest {
     @Before
     public void setup() {
 
-        MockitoAnnotations.initMocks( this );
+        MockitoAnnotations.openMocks( this );
 
         this.bo = new OrderBOImpl();
         this.bo.setDao( this.dao );
