@@ -10,3 +10,4 @@
 4. [Mockito Scrap Book](https://github.com/brunomilitzer/junit-mockito/tree/master/MockitoScrapBook)
 5. [Calculator](https://github.com/brunomilitzer/junit-mockito/tree/master/Calculator)
 6. [Coupon App](https://github.com/brunomilitzer/junit-mockito/tree/master/CouponApp)
+7. [User Admin Service](https://github.com/brunomilitzer/junit-mockito/tree/master/UserAdminService)
