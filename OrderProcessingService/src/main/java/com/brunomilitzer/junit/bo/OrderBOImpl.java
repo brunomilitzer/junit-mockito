@@ -1,8 +1,8 @@
 package com.brunomilitzer.junit.bo;
 
 import com.brunomilitzer.junit.dao.OrderDAO;
-import com.brunomilitzer.junit.dto.Order;
 import com.brunomilitzer.junit.exceptions.BOException;
+import com.brunomilitzer.junit.spring.dto.Order;
 
 import java.sql.SQLException;
 
