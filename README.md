@@ -12,3 +12,5 @@
 6. [Coupon App](https://github.com/brunomilitzer/junit-mockito/tree/master/CouponApp)
 7. [User Admin Service](https://github.com/brunomilitzer/junit-mockito/tree/master/UserAdminService)
 8. [Spring Junit](https://github.com/brunomilitzer/junit-mockito/tree/master/SpringJunit)
+9. [Coupon Service](https://github.com/brunomilitzer/junit-mockito/tree/master/couponservice)
+10. [Product Service](https://github.com/brunomilitzer/junit-mockito/tree/master/productservice)
